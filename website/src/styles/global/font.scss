@@ -1,0 +1,54 @@
+// font
+@font-face {
+    font-family: 'mango200';
+    src: url('../../assets/fonts/Manrope-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'mango300';
+    src: url('../../assets/fonts/Manrope-Light.ttf');
+}
+@font-face {
+    font-family: 'mango400';
+    src: url('../../assets/fonts/Manrope-Regular.ttf');
+}
+@font-face {
+    font-family: 'mango500';
+    src: url('../../assets/fonts/Manrope-Medium.ttf');
+}
+@font-face {
+    font-family: 'mango600';
+    src: url('../../assets/fonts/Manrope-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'mango700';
+    src: url('../../assets/fonts/Manrope-Bold.ttf');
+}
+@font-face {
+    font-family: 'mango800';
+    src: url('../../assets/fonts/Manrope-ExtraBold.ttf');
+}
+.mango200{
+    font-family: 'mango200';
+}
+.mango300{
+    font-family: 'mango300';
+}
+.mango400{
+    font-family: 'mango400';
+}
+.mango500{
+    font-family: 'mango500';
+}
+.mango600{
+    font-family: 'mango600';
+}
+.mango700{
+    font-family: 'mango700';
+}
+.mango800{
+    font-family: 'mango800';
+}
+
+.text-font-primary{
+    font-family: 'Courier New', Courier, monospace;
+}

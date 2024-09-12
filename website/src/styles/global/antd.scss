@@ -1,0 +1,33 @@
+.ant-input {
+    height: 46px !important;
+}
+.ant-otp,
+.ant-flex {
+    max-width: 350px !important;
+}
+.ant-switch {
+    background-color: black !important;
+}
+.ant-switch-inner{
+    box-shadow: rgba(231, 228, 228, 0.7) 0px 0px 5px 0px, rgba(231, 228, 228, 0.7) 0px 0px 1px 0px;
+}
+.ant-switch-checked{
+    .ant-switch-inner{
+        box-shadow: none;
+        background-color: white !important;
+    }
+    .ant-switch-handle::before{
+        background-color: black !important;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .ant-flex{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        .ant-otp{
+            width: 55vw !important;
+        }
+    }
+}

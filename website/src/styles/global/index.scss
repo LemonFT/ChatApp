@@ -1,0 +1,39 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'button.scss';
+@import 'color.scss';
+@import 'animation.scss';
+@import 'antd.scss';
+@import 'custome.scss';
+@import 'font.scss';
+@import 'sonner.toast.scss';
+// reset css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'mango400';
+}
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+input::placeholder{
+    font-size: 14px;
+    user-select: none;
+}
+
+input[type=password]::-ms-reveal,
+input[type=password]::-ms-clear
+{
+    display: none;
+}
+img{
+    user-select: none;
+}
+
+

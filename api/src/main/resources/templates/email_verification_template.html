@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Verification</title>
+    <style>
+        * { font-family: 'Courier New', Courier, monospace; }
+        body { background-color: #f4f4f4; margin: 0; padding: 0; }
+        .container { background-color: #ffffff; margin: 50px auto; padding: 20px; max-width: 600px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .header { text-align: center; padding: 10px 0; border-bottom: 1px solid #e0e0e0; }
+        .header img { width: 100px; height: 100px; object-fit: cover; border-radius: 10px; }
+        .content { margin: 20px 0; text-align: center; }
+        .content h1 { color: black; }
+        .content p { color: #666666; font-size: 16px; }
+        .code { display: inline-block; margin: 20px 0; padding: 10px 20px; font-size: 24px; letter-spacing: 2px; color: #ffffff; background-color: #6083a1; border-radius: 5px; }
+        .footer { text-align: center; padding: 10px 0; border-top: 1px solid #e0e0e0; color: #999999; font-size: 12px; text-transform: uppercase; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://firebasestorage.googleapis.com/v0/b/mp4storage-aaff5.appspot.com/o/Screenshot%202024-07-13%20180906.png?alt=media&token=5f6d613d-d17b-42be-899c-478adf824df9" alt="Company Logo">
+        </div>
+        <div class="content">
+            <h1>Email Verification</h1>
+            <p>To verify your email address, please use the following 6-digit verification code:</p>
+            <div class="code">${uniqueNumber}</div>
+            <p>If you did not request this code, please ignore this email.</p>
+        </div>
+        <div class="footer">
+            &copy; ${currentDate} Ft.at COMPANY. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
